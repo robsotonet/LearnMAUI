@@ -8,10 +8,11 @@
             Padding="30,0"
             Spacing="25">
             <Image
-                Source="dotnet_bot.png"
-                HeightRequest="185"
+                Source="pluralsightlogo.png"
+                HeightRequest="240"
                 Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight" />
+                SemanticProperties.Description="Pluralsight logo"
+                SemanticProperties.Hint="This is the logo mostly used by Pluralsight"/>
 
             <Label
                 Text="Hello, World!"
@@ -23,6 +24,10 @@
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+            <Button Clicked="Button_Clicked" 
+                    HorizontalOptions="Fill" 
+                    Text="OpenPage" />
 
             <Button
                 x:Name="CounterBtn"
