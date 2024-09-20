@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Learn04.Mobile.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Learn04.Mobile"
+    xmlns:views="clr-namespace:Learn04.Mobile.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Learn04.Mobile">
+
+    <TabBar>
+        <ShellContent Title="Presentation" ContentTemplate="{DataTemplate views:PresentationPage}" />
+        <ShellContent Title="Commands" ContentTemplate="{DataTemplate views:CommandPage}" />
+    </TabBar>
+
+</Shell>
